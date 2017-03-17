@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Drag and Drop</title>
+    <link rel="stylesheet" type="text/css" href="css/drag.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    </head> 
+
+  <body>
+<script src="js/dragula.js"></script>
+
+
+<div class="container">
+  <div id="howmuch_tab">
+    <div class="main_container">
+
+    <ul id="parent-list">
+      <li class="clickTab"><button class="essentials_tab">Essentials</button></li>
+      <li class="clickTab"><button class="niceToHave_tab">Nice to Have</button></li>
+      <li class="clickTab"><button class="luxuries_tab">Luxuries</button></li>
+      <div class="clear"></div>
+    </ul>
+
+  <div id="essentials_tab" class="tab">
+    <img src="img/clothes.png" alt="" data-cat="essentials" data-value="5" data-class="clothes" data-id="essentialstab">
+    <img src="img/creditcards.png" alt="" data-cat="essentials" data-value="5" data-class="creditCards" data-id="essentials_tab">
+    <img src="img/rent.png" alt="" data-cat="essentials" data-value="5" data-class="rent" data-id="essentials_tab">
+    <img src="img/housebills.png" data-cat="essentials" data-value="5" data-class="housebills" data-id="essentials_tab" alt="">
+    <img src="img/car.png" data-cat="essentials" data-value="5" data-class="car" alt="" data-id="essentials_tab">
+    <img src="img/mortgage.png" data-cat="essentials" data-value="5" data-class="mortgage" alt="" data-id="essentials_tab">
+    <img src="img/supermarket.png" data-cat="essentials" data-value="5" data-class="supermarket" alt="" data-id="essentials_tab">
+    <img src="img/householdmain.png" data-cat="essentials" data-value="5" data-class="householdmain" alt="" data-id="essentials_tab">
+    <img src="img/otherblue.png" data-cat="essentials" data-value="5" data-class="otherblue" alt="" data-id="essentials_tab">
+    <div class="clear"></div>
+  </div>
+  
+  <div id="niceToHave_tab" class="tab">
+    <img src="img/secondcar.png" alt="" data-cat="niceTohave" data-value="5" data-class="secondcar" data-id="niceToHave_tab">
+    <img src="img/magazines.png" alt="" data-cat="niceTohave" data-value="5" data-class="magazines" data-id="niceToHave_tab">
+    <img src="img/education.png" alt="" data-cat="niceTohave" data-value="5" data-class="education" data-id="niceToHave_tab">
+    <img src="img/hobbies.png" alt="" data-cat="niceTohave" data-value="5" data-class="hobbies" data-id="niceToHave_tab">
+    <img src="img/digitaltv.png" alt="" data-cat="niceTohave" data-value="5" data-class="digitaltv" data-id="niceToHave_tab">
+    <img src="img/daytrips.png" alt="" data-cat="niceTohave" data-value="5" data-class="daytrips" data-id="niceToHave_tab">
+    <img src="img/eatingout.png" alt="" data-cat="niceTohave" data-value="5" data-class="eatingout" data-id="niceToHave_tab">
+    <img src="img/othergreen.png" alt="" data-cat="niceTohave" data-value="5" data-class="othergreen" data-id="niceToHave_tab">
+    <div class="clear"></div>
+  </div>
+  
+  <div id="luxuries_tab" class="tab">
+    <img src="img/secondproperty.png" alt="" data-cat="luxuries" data-value="5" data-class="secondproperty" data-id="niceToHave_tab">
+    <img src="img/holidays.png" alt="" data-cat="luxuries" data-value="5" data-class="holidays" data-id="niceToHave_tab">
+    <img src="img/otherorange.png" alt="" data-cat="luxuries" data-value="5" data-class="otherorange" data-id="niceToHave_tab">
+    <div class="clear"></div>
+  </div>
+
+    <div id="basket"><img src="img/basket.png" alt=""></div>
+    <div class="clear"></div>
+
+<div id="tabs"> <!-- tabs -->
+  <div id="essentials"></div>
+  
+  <div id="niceTohave"></div>
+  
+  <div id="luxuries"></div>
+</div>
+    <div class="clear"></div>
+    </div>
+    <div id="totals">
+      <div id="grand_total">
+        <p>Grand Total :</p>
+      </div>
+
+      <div id="total_esse">s
+        <p>Total Essentials</p>
+      </div>
+
+      <div id="total_nice">
+        <p>Total Nice to have</p>
+      </div>
+
+      <div id="total_lux">
+        <p>Total Luxuries</p>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div> <!-- end of howmuch tab -->
+</div> <!-- end top container -->
+
+
+<script src="js/jquery.js"></script>
+<script src="js/updated.js"></script>
+  </body>
+</html>

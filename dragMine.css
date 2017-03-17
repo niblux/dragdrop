@@ -1,0 +1,151 @@
+.clear {
+	clear: both;
+}
+
+body {
+	font-family: Helvetica;
+}
+
+button {
+    border: none;
+    padding: 10px;
+}
+
+button.essentials_tab {
+    background: #00aff0;
+}
+
+button.niceToHave_tab {
+    background: #91d050;
+}
+
+button.luxuries_tab {
+    background: #ffb81c;
+}
+
+.container {
+	width: 960px;
+	margin:auto;
+	background: #efefef;
+}
+
+.main_container {
+    width: 500px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: solid 1px black;
+}
+
+#grand_total {
+    height: 100px;
+    background: #135faa;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    padding:20px;
+    font-size: 16px;
+    color:#ffffff;
+}
+
+#total_esse {
+    min-height: 20px;
+    background: #22abe6;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 40px;
+    width: 120px;
+}
+
+#total_nice {
+    height: 20px;
+	background:#92ba30;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 40px;
+    width: 120px;
+}
+
+#total_lux {
+    height: 20px;
+	background:#ffb81c;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 40px;
+    width: 120px;	
+}
+
+#howmuch_tab {
+    position: relative;
+    width: 960px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#niceToHave_tab, #luxuries_tab{
+  display: none;
+}
+
+#niceToHave_tab img, #luxuries_tab img, #essentials_tab img {
+  float: left;
+  width: 60px;
+  margin: 10px;
+  display: block;
+}
+
+#essentials img, #niceTohave img, #luxuries img {
+	width: 60px;
+	display: inline-block;
+}
+
+#parent-list {
+	padding:0;
+	margin:0;
+}
+
+#parent-list li {
+	list-style: none;
+	display: inline;
+	float: left;
+}
+
+#essentials, #niceTohave, #luxuries {
+	width: 460px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+#essentials {
+	background: #1ca4be;
+	opacity: 0.8;
+}
+
+#niceTohave {
+	background: #91d050;
+	opacity: 0.8;
+}
+
+#luxuries {
+	background: #ffb81c;
+	opacity: 0.8;
+}
+
+
+#basket {
+    width: 460px;
+	margin: 0 auto;
+	padding: 20px;
+	background: #ffffff;
+}
+
+#basket img {
+	width: 60px;
+}
+
+#totals {
+    /* float: right; */
+    width: 250px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
