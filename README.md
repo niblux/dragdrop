@@ -1,12 +1,14 @@
 # dragdrop
 Basic Drag and Drop Application 
 
-Demo can be found at the following link : http://dev.nabil.me.uk/dragDrop/updated.html
+This application allows items to be added to a basket whilst calculating ongoing values.
 
-Current Issues : Re-Adding Items to basket after removal, two values are not being passed through. 
+Items can be removed from basket and placed back in its original container. 
 
-1) Item should add to basket
-2) Item can then be removed from basket
-3) Item is then added back to basket.
-4) Error: When item is being added back to basket two values are returning "undefined".
+Drag and Drop functionality is provided by the dragula library. 
+
+Demo can be found at the following link : http://dev.nabil.me.uk/dragDrop/
+
+
+
 
