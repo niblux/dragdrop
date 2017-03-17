@@ -43,10 +43,10 @@ var crTarget;
 document.getElementById("tabs").addEventListener("click",function(e) {
     if(e.target && e.target.nodeName == "IMG") {
         var className = e.target.className;
-        console.log(className);
         var cat = e.target.dataset.cat;
         var catId = e.target.dataset.id;
         var val = e.target.dataset.val;
+        console.log(className);
         var crTarget = e.target;
         crTarget.remove();
 
@@ -93,7 +93,7 @@ document.getElementById("tabs").addEventListener("click",function(e) {
     el.setAttribute('data-cat', catName);
     el.setAttribute('data-val', val);
     el.setAttribute('data-id', id);
-    // console.log(className);
+    console.log(id);
     target.appendChild(el);
   }
 
@@ -101,9 +101,9 @@ document.getElementById("tabs").addEventListener("click",function(e) {
     targetRepeat = document.getElementById(id);
     el = document.createElement('img');
     el.setAttribute('src', 'img/' + className + '.png'); 
-    el.setAttribute('class', className);
+    el.setAttribute('data-class', className);
     el.setAttribute('data-cat', catName);
-    el.setAttribute('data-val', val);
+    el.setAttribute('data-value', val);
     el.setAttribute('data-id', id);
     // console.log(className);
     targetRepeat.appendChild(el);
@@ -129,10 +129,13 @@ document.getElementById("tabs").addEventListener("click",function(e) {
 
   drake.on('drop', function(event) {
     var cat = event.dataset.cat;
+    // console.log(cat);
     var val = event.dataset.value;
-    console.log(val);
+    // console.log(val);
     var icon = event.dataset.class; 
+    // console.log(icon);
     var catID = event.dataset.id;
+    // console.log(id);
 
     var esseHeight = $('#total_esse').height();
     var luxHeight = $('#total_lux').height();
