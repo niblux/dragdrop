@@ -60,14 +60,6 @@ document.getElementById("tabs").addEventListener("click",function(e) {
   }
 });
 
-// WORKS FINE JUST REMOVES LAST ITEM NOT INDIVIDUAL
-  //   function removeEl(clsName, catName, crTarget) {
-  //   target = document.getElementById(catName);
-  //   lastEl = crTarget;
-  //   target.remove(lastEl);
-  // }
-
-
   var basket = document.getElementById('basket'); 
   var essentialDragItems = document.getElementById('essentials_tab'); 
   var niceDragItems = document.getElementById('niceToHave_tab'); 
